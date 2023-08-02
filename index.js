@@ -96,7 +96,7 @@ const fetchSpecificArticles = async (newsId) => {
 };
 
 app.get("/", (req, res) => {
-  res.json("success");
+  res.json("Welcome to my climate change api. Navigate to /news to get started!");
 });
 
 app.get("/news", async (req, res) => {
